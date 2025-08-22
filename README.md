@@ -17,10 +17,14 @@ The proposed model improves robustness, generalization, and detection rates comp
 
 ---
 
-## 📊 Datasets Used
-- **FaceForensics++**  
-- **Celeb-DF**  
-- **DFDC (Deepfake Detection Challenge)**  
+## What Are GAN'S?
+Generative Adversarial Networks also known as GANs are a set of deep-learning based adversarial models. That means they are able to generate new content from the given content. Generative modelling is a type of unsupervised learning algorithm in machine learning that learns and discovers patterns or irregularities in the input data in such a way that the model generates an output of new data instances that look almost like the input data. Long cut short a GAN takes in input data identifies its patter and underlying probability distribution and generates or mimics it to create fake versions of the original data and then classifies if the generated data is fake or real. For example a GAN can create images that look like photographs of human faces even though the face doesn't belong to any real person. A GAN model architecture involves two sub-models namely : a Generator model that creates the new instances(data) and a Discriminator model that classifies if the generator created data is real or fake. The generator tries to fool the discriminator, and the discriminator tries to keep from being fooled.
+
+Generator - The generator plays the part of a falsifier and attempts to make music/image/speech from random noise. It figures out how to plan from an inert space to a specific data distribution of interest. It for the most part actualizes a Deconvolutional Network to do as such.
+
+Discriminator-The Discriminator then again plays the function of the evaluator and attempts to recognize the fake data (made by the Generator) from the genuine one. It is generally executed as a Convolutional Network.
+<img width="1536" height="1024" alt="Generative Adversarial Network Diagram" src="https://github.com/user-attachments/assets/548f7ca2-8eda-4510-8fea-aeec17f8d320" />
+
 
 ---
 
