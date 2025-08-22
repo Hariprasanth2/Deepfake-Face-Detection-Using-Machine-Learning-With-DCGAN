@@ -35,7 +35,9 @@ Deepfake detection has emerged as a vital research domain owing to the rapid pro
 2. **DCGAN**: Generate synthetic deepfake samples to improve dataset diversity.  
 3. **CNN (ResNeXt)**: Extracts spatial features from frames.  
 4. **LSTM**: Performs temporal sequence analysis for inconsistencies.  
-5. **Classification Layer**: Sigmoid-based classifier to predict real vs fake.  
+5. **Classification Layer**: Sigmoid-based classifier to predict real vs fake.
+<img width="1001" height="561" alt="WhatsApp Image 2025-08-22 at 9 53 26 AM" src="https://github.com/user-attachments/assets/59c4296b-4738-442b-8215-0f4095b24509" />
+
 
 ---
 
