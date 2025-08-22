@@ -29,8 +29,6 @@ Discriminator-The Discriminator then again plays the function of the evaluator a
 ---
 ## 📂Literature review
 Deepfake detection has emerged as a vital research domain owing to the rapid progress of generative models. A variety of techniques have been proposed, including Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), and hybrid methods that integrate multiple approaches. Traditional CNN-based models, such as XceptionNet, ResNet, and VGG16, have proven effective in detecting deepfakes by extracting spatial features from individual frames. However, these models often fall short in identifying temporal inconsistencies across video frames, which reduces their accuracy in video-based detection tasks. To overcome these limitations, hybrid models that combine CNNs with recurrent networks like Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU) have been investigated. Such models leverage sequential frame analysis, enabling them to detect deepfake-specific anomalies, including mismatched lip-sync, unnatural facial expressions, and subtle pixel-level artifacts. Research indicates that adding temporal analysis substantially enhances detection performance compared to static frame-based models.
-<img width="1366" height="768" alt="combined_flowcharts_1366x768" src="https://github.com/user-attachments/assets/7d340ee7-dd14-454b-b4bb-749f1841e1e7" />
-
 
 
 ## 🧠 Methodology
@@ -42,12 +40,16 @@ Deepfake detection has emerged as a vital research domain owing to the rapid pro
 
 ---
 
-## 📈 Results
-- **Accuracy**: 94.3%  
-- **Precision**: 93.8%  
-- **Recall**: 94.5%  
-- **F1-Score**: 94.1%  
-- Outperformed conventional CNN-LSTM approaches by **4–6%**.
+## 📈 Results And Discussions
+Performance Evaluation
+The proposed deepfake detection system achieved notable improvements by integrating DCGAN for data augmentation, CNN for spatial feature extraction, and LSTM for temporal sequence analysis. The model was tested on benchmark datasets including FaceForensics++, Celeb-DF, and DFDC, and delivered strong results:
+Accuracy: 94.3%
+Precision: 93.8%
+Recall: 94.5%
+F1-Score: 94.1%
+Compared to conventional CNN-LSTM approaches, the inclusion of DCGAN improved detection accuracy by 4–6%, confirming the effectiveness of synthetic data in strengthening model robustness.
+Performance Metrics
+Performance was measured using standard classification metrics—accuracy, precision, recall, and F1-score—on widely used deepfake datasets (FaceForensics++, Celeb-DF, DFDC). The results validate that DCGAN-enhanced training significantly boosts detection capabilities, making the model highly reliable in identifying manipulated content.
 
 ---
 
