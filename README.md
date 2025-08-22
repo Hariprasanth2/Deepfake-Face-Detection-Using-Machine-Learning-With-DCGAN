@@ -1,6 +1,5 @@
 # Deepfake Face Detection Using Machine Learning with DCGAN
-"Deepfake Face Detection using CNN-LSTM with DCGAN (Research Paper Implementation)"
-<img width="346" height="436" alt="image" src="https://github.com/user-attachments/assets/6261e7d0-c8b0-4155-b23f-43f427fe70d7" />
+The project Deepfake Face Detection Using Machine Learning with DCGAN focuses on building an intelligent system to identify manipulated videos and images generated through deepfake technology. It leverages Convolutional Neural Networks (CNNs) to extract spatial features and Long Short-Term Memory (LSTM) networks to capture temporal inconsistencies across video frames. To strengthen the training process, a Deep Convolutional Generative Adversarial Network (DCGAN) is used to generate synthetic samples, improving the model’s ability to generalize and detect unseen deepfake manipulations. The system was trained on benchmark datasets like FaceForensics++, Celeb-DF, and DFDC, achieving an accuracy of 94.3%, outperforming traditional CNN-LSTM methods. This research demonstrates improved robustness in combating misinformation and fake media, while also highlighting future enhancements such as integrating transformer-based models, multimodal detection (audio + video), and developing real-time browser or mobile applications for wider accessibility.
 
 
 ## 📄 Abstract
