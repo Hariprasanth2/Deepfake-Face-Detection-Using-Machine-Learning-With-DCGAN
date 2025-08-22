@@ -23,10 +23,14 @@ Generative Adversarial Networks also known as GANs are a set of deep-learning ba
 Generator - The generator plays the part of a falsifier and attempts to make music/image/speech from random noise. It figures out how to plan from an inert space to a specific data distribution of interest. It for the most part actualizes a Deconvolutional Network to do as such.
 
 Discriminator-The Discriminator then again plays the function of the evaluator and attempts to recognize the fake data (made by the Generator) from the genuine one. It is generally executed as a Convolutional Network.
-<img width="1536" height="1024" alt="Generative Adversarial Network Diagram" src="https://github.com/user-attachments/assets/548f7ca2-8eda-4510-8fea-aeec17f8d320" />
+<img width="1536" height="1024" alt="ChatGPT Image Aug 22, 2025, 09_27_08 AM" src="https://github.com/user-attachments/assets/bab3d19f-8c9f-4414-9811-80babdbeb390" />
+
 
 
 ---
+##  Literature review
+Deepfake detection has emerged as a vital research domain owing to the rapid progress of generative models. A variety of techniques have been proposed, including Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), and hybrid methods that integrate multiple approaches. Traditional CNN-based models, such as XceptionNet, ResNet, and VGG16, have proven effective in detecting deepfakes by extracting spatial features from individual frames. However, these models often fall short in identifying temporal inconsistencies across video frames, which reduces their accuracy in video-based detection tasks. To overcome these limitations, hybrid models that combine CNNs with recurrent networks like Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU) have been investigated. Such models leverage sequential frame analysis, enabling them to detect deepfake-specific anomalies, including mismatched lip-sync, unnatural facial expressions, and subtle pixel-level artifacts. Research indicates that adding temporal analysis substantially enhances detection performance compared to static frame-based models.
+
 
 ## 🧠 Methodology
 1. **Preprocessing**: Extract video frames, resize, normalize, and apply augmentation.  
