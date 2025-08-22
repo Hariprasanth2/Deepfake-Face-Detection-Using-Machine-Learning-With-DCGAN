@@ -5,7 +5,6 @@ The project Deepfake Face Detection Using Machine Learning with DCGAN focuses on
 ## 📄 Abstract
 Deepfake technology, driven by Generative Adversarial Networks (GANs), has raised significant concerns due to its potential misuse in creating hyper-realistic synthetic media. Traditional detection models struggle to generalize across various deepfake types.  
 This project proposes a **deepfake face detection framework** utilizing a hybrid **Convolutional Neural Network (CNN)** and **Long Short-Term Memory (LSTM)** model, enhanced with a **Deep Convolutional Generative Adversarial Network (DCGAN)** for synthetic training data generation.  
-The proposed model improves robustness, generalization, and detection rates compared to traditional approaches.
 
 ---
 
@@ -28,8 +27,10 @@ Discriminator-The Discriminator then again plays the function of the evaluator a
 
 
 ---
-##  Literature review
+## 📂Literature review
 Deepfake detection has emerged as a vital research domain owing to the rapid progress of generative models. A variety of techniques have been proposed, including Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), and hybrid methods that integrate multiple approaches. Traditional CNN-based models, such as XceptionNet, ResNet, and VGG16, have proven effective in detecting deepfakes by extracting spatial features from individual frames. However, these models often fall short in identifying temporal inconsistencies across video frames, which reduces their accuracy in video-based detection tasks. To overcome these limitations, hybrid models that combine CNNs with recurrent networks like Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU) have been investigated. Such models leverage sequential frame analysis, enabling them to detect deepfake-specific anomalies, including mismatched lip-sync, unnatural facial expressions, and subtle pixel-level artifacts. Research indicates that adding temporal analysis substantially enhances detection performance compared to static frame-based models.
+<img width="1366" height="768" alt="combined_flowcharts_1366x768" src="https://github.com/user-attachments/assets/7d340ee7-dd14-454b-b4bb-749f1841e1e7" />
+
 
 
 ## 🧠 Methodology
