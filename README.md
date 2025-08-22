@@ -3,8 +3,7 @@ The project Deepfake Face Detection Using Machine Learning with DCGAN focuses on
 
 
 ## 📄 Abstract
-Deepfake technology, driven by Generative Adversarial Networks (GANs), has raised significant concerns due to its potential misuse in creating hyper-realistic synthetic media. Traditional detection models struggle to generalize across various deepfake types.  
-This project proposes a **deepfake face detection framework** utilizing a hybrid **Convolutional Neural Network (CNN)** and **Long Short-Term Memory (LSTM)** model, enhanced with a **Deep Convolutional Generative Adversarial Network (DCGAN)** for synthetic training data generation.  
+Deepfake technology, powered by Generative Adversarial Networks (GANs), has gained attention due to its ability to produce highly realistic but synthetic media. While such advancements have applications in entertainment, education, and digital creativity, they also raise serious concerns regarding privacy, security, and misinformation. Traditional deepfake detection models, primarily based on Convolutional Neural Networks (CNNs), often fail to generalize across different deepfake types because of the rapid evolution of generative models. To address these challenges, we propose a hybrid detection framework that integrates CNNs for spatial feature extraction with Long Short-Term Memory (LSTM) networks for capturing temporal inconsistencies across image frames.  
 
 ---
 
