@@ -1,6 +1,7 @@
-# Deepfake-Face-Detection-Using-Machine-Learning-With-DCGAN
-"Deepfake Face Detection using CNN-LSTM with DCGAN (Research Paper Implementation)"
 # Deepfake Face Detection Using Machine Learning with DCGAN
+"Deepfake Face Detection using CNN-LSTM with DCGAN (Research Paper Implementation)"
+<img width="346" height="436" alt="image" src="https://github.com/user-attachments/assets/6261e7d0-c8b0-4155-b23f-43f427fe70d7" />
+
 
 ## 📄 Abstract
 Deepfake technology, driven by Generative Adversarial Networks (GANs), has raised significant concerns due to its potential misuse in creating hyper-realistic synthetic media. Traditional detection models struggle to generalize across various deepfake types.  
