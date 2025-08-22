@@ -50,6 +50,9 @@ Compared to conventional CNN-LSTM approaches, the inclusion of DCGAN improved de
 Performance Metrics
 Performance was measured using standard classification metrics—accuracy, precision, recall, and F1-score—on widely used deepfake datasets (FaceForensics++, Celeb-DF, DFDC). The results validate that DCGAN-enhanced training significantly boosts detection capabilities, making the model highly reliable in identifying manipulated content.
 
+OUTPUT
+![WhatsApp Image 2025-08-22 at 9 48 29 AM](https://github.com/user-attachments/assets/29705c2f-7252-4f59-9d46-0d1ea4c617be)
+
 ---
 
 ## 🚀 Future Work
@@ -60,19 +63,11 @@ Performance was measured using standard classification metrics—accuracy, preci
 
 ---
 
-## 📂 Repository Structure
-```
-Deepfake-Detection-DCGAN/
-│── README.md                → Project details
-│── finalConferencepaper.pdf → Research paper
-│── requirements.txt         → Python libraries
-│── src/                     → Source code folder
-│   ├── model.py
-│   ├── train.py
-│   ├── detect.py
-│── data/                    → (Optional) sample dataset links/instructions
-```
----
+## 📂 Conclusion
+This paper introduces an enhanced deepfake detection framework that integrates DCGAN, CNN, and LSTM to overcome the limitations of traditional detection models. The DCGAN is employed to generate synthetic training data, thereby enriching the dataset and improving the model’s ability to generalize to unseen deepfake manipulations. CNNs are leveraged for spatial feature extraction, capturing fine-grained pixel-level details such as lighting inconsistencies and facial artifacts, while LSTMs focus on temporal sequence analysis, identifying irregularities across consecutive frames such as unnatural motion or lip synchronization issues. Together, these components form a hybrid architecture that enhances the accuracy, robustness, and adaptability of the system. Experimental evaluations on benchmark datasets such as FaceForensics++, Celeb-DF, and DFDC confirm the model’s effectiveness, achieving an impressive 94.3% accuracy along with balanced precision, recall, and F1-score values. The proposed approach not only reduces false positives but also demonstrates strong generalization across diverse deepfake datasets, outperforming conventional CNN-LSTM methods.
 
-⚠️ **Disclaimer**: This project is developed strictly for **educational and research purposes** to combat misinformation and enhance cybersecurity.
+Future Enhancements
+
+While the current system delivers high detection accuracy, several opportunities exist for further improvement. Incorporating transformer-based architectures could significantly enhance feature extraction and long-sequence modeling, making the system more adaptable to emerging deepfake techniques. Expanding the detection framework to include multimodal analysis—combining both visual and audio features—would strengthen robustness against sophisticated manipulations involving synchronized voices and facial expressions. In addition, the development of a real-time browser extension or mobile application could make deepfake detection more accessible to the public, enabling instant verification of online media. Finally, increasing the diversity and quality of the training dataset by integrating larger and more realistic deepfake samples would ensure better performance against evolving threats. These future directions highlight the potential for building scalable, user-friendly, and highly accurate deepfake detection solutions for real-world applications.
+
 
